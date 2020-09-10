@@ -1,0 +1,19 @@
+{
+  "name": "prettier-plugin-zonefile",
+  "version": "1.0.0",
+  "description": "A prettier DNS zonefile plugin",
+  "main": "lib/index.js",
+  "repository": "tbc",
+  "author": "Simon Pilepich",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2.1.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "prettier": "^2.1.1"
+  }
+}
