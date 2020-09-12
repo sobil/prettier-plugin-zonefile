@@ -7,10 +7,14 @@
   "author": "Simon Pilepich",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --build --clean",
+    "build:watch": "tsc --build --watch"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.13",
     "@types/prettier": "^2.1.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
     "typescript": "^4.0.2"
   },
   "dependencies": {
